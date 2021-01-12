@@ -1,0 +1,47 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(721f7b3f-453d-4886-967e-d959e8d73655), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to D:\akka\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to D:\akka\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\target\scala-2.13\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCoffeeHouseSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging a status message at debug[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a child actor with the name 'barista'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a child actor with the name 'waiter'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending CreateGuest to CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a Guest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging status guest added to guest book[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending ApproveCoffee to CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in forwarding PrepareCoffee to Barista if caffeineLimit not yet reached[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in Barista sending a CoffeePrepared to Waiter if caffeineLimit not yet reached[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging status guest caffeine count incremented[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging a status message at info if caffeineLimit reached[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in stopping the Guest if caffeineLimit reached[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGuestSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending CoffeeServed to Guest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in increasing the coffeeCount and log a status message at info[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending ServeCoffee to Waiter after finishCoffeeDuration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending CoffeeFinished to Guest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending ServeCoffee to Waiter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWaiterSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending ServeCoffee to Waiter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending ApproveCoffee to CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCoffeeHouseAppSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling argsToOpts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct opts for the given args[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling applySystemProperties[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should apply the system properties for the given opts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating CoffeeHouseApp[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a top-level actor named 'coffee-house'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling createGuest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending CreateGuest to CoffeeHouse count number of times[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBaristaSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending PrepareCoffee to Barista[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending a CoffeePrepared response after prepareCoffeeDuration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 113 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 19[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 19, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 6 s, completed Dec 14, 2020 2:26:51 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

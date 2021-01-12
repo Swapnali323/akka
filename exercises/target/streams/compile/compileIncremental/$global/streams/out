@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(D:\akka\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\src\main\scala\com\lightbend\training\coffeehouse\CoffeeHouse.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(D:\akka\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\src\main\scala\com\lightbend\training\coffeehouse\CoffeeHouseApp.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.lightbend.training.coffeehouse.CoffeeHouseApp)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to D:\akka\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 6758e4a6 for Scala compiler version 2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:_[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UTF-8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xfatal-warnings[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes;C:\Users\asus\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.13.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	D:\akka\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\target\scala-2.13\classes;D:\akka\LAS-P-lightbend-akka-for-scala-professional-v1\common\target\scala-2.13\classes;C:\Users\asus\.ivy2\cache\com.typesafe.akka\akka-actor_2.13\jars\akka-actor_2.13-2.6.3.jar;C:\Users\asus\.ivy2\cache\com.typesafe\config\bundles\config-1.4.0.jar;C:\Users\asus\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.13\jars\scala-java8-compat_2.13-0.9.0.jar;C:\Users\asus\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.13\jars\akka-slf4j_2.13-2.6.3.jar;C:\Users\asus\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.30.jar;C:\Users\asus\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.2.3.jar;C:\Users\asus\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.2.3.jar;C:\Users\asus\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.13\bundles\scala-parser-combinators_2.13-1.1.2.jar;C:\Users\asus\.ivy2\cache\com.lightbend.akka\akka-diagnostics_2.13\jars\akka-diagnostics_2.13-1.1.12.jar;C:\Users\asus\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.5.jar;C:\Users\asus\.ivy2\cache\com.lightbend.cinnamon\cinnamon-akka_2.13\jars\cinnamon-akka_2.13-2.13.1.jar;C:\Users\asus\.ivy2\cache\com.lightbend.cinnamon\cinnamon-java\jars\cinnamon-java-2.13.1.jar;C:\Users\asus\.ivy2\cache\com.lightbend.cinnamon\cinnamon-core-java\jars\cinnamon-core-java-2.13.1.jar;C:\Users\asus\.ivy2\cache\com.lightbend.cinnamon\cinnamon-common\jars\cinnamon-common-2.13.1.jar;C:\Users\asus\.ivy2\cache\com.lightbend.cinnamon\cinnamon-scala_2.13\jars\cinnamon-scala_2.13-2.13.1.jar;C:\Users\asus\.ivy2\cache\com.lightbend.cinnamon\cinnamon-core_2.13\jars\cinnamon-core_2.13-2.13.1.jar;C:\Users\asus\.ivy2\cache\com.lightbend.cinnamon\cinnamon-jvm-metrics-producer\jars\cinnamon-jvm-metrics-producer-2.13.1.jar;C:\Users\asus\.ivy2\cache\com.lightbend.cinnamon\cinnamon-prometheus\jars\cinnamon-prometheus-2.13.1.jar;C:\Users\asus\.ivy2\cache\io.prometheus\simpleclient\bundles\simpleclient-0.8.0.jar;C:\Users\asus\.ivy2\cache\org.hdrhistogram\HdrHistogram\bundles\HdrHistogram-2.1.12.jar;C:\Users\asus\.ivy2\cache\com.lightbend.cinnamon\cinnamon-prometheus-httpserver\jars\cinnamon-prometheus-httpserver-2.13.1.jar;C:\Users\asus\.ivy2\cache\io.prometheus\simpleclient_httpserver\bundles\simpleclient_httpserver-0.8.0.jar;C:\Users\asus\.ivy2\cache\io.prometheus\simpleclient_common\bundles\simpleclient_common-0.8.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.3196913 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

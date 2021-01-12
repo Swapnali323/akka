@@ -1,0 +1,7 @@
+#Successful Tests
+#Tue Dec 15 19:04:28 IST 2020
+com.lightbend.training.coffeehouse.CoffeeHouseAppSpec=1608039268009
+com.lightbend.training.coffeehouse.WaiterSpec=1608039267758
+com.lightbend.training.coffeehouse.GuestSpec=1608039267471
+com.lightbend.training.coffeehouse.BaristaSpec=1608039268597
+com.lightbend.training.coffeehouse.CoffeeHouseSpec=1608039266969

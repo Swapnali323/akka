@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(94427532-0c39-4bea-b8d3-4e5eee2c4898), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to D:\akka\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to D:\akka\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\target\scala-2.13\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCoffeeHouseSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging a status message at debug[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSending a message to CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending a 'coffee brewing' message as response[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCoffeeHouseAppSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling argsToOpts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct opts for the given args[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalling applySystemProperties[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should apply the system properties for the given opts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreating CoffeeHouseApp[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in creating a top-level actor named 'coffee-house'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in sending a message to CoffeeHouse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should result in logging CoffeeHouse's response at info[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 84 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 6 s, completed Dec 12, 2020 7:47:35 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
